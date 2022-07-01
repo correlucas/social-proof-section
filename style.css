@@ -61,15 +61,15 @@ h1 {
   letter-spacing: -1.71429px;
   line-height: 0.9;
   color: var(--dark-violet);
-
   max-width: 350px;
-  padding-bottom: 1rem;
+  padding-bottom: 1.2rem;
 }
 
 .heading p {
   font-weight: 400;
-  font-size: 0.9375rem;
-  line-height: 1.3;
+  font-size: 1rem;
+  align-self: baseline;
+  line-height: 1.2;
   letter-spacing: -0.5px;
   color: var(--pinkish-gray);
   max-width: 350px;
@@ -97,23 +97,29 @@ h1 {
   color: var(--dark-violet);
   background-color: var(--soft-gray);
   border-radius: 0.5rem;
-  margin-top: 16px;
   transition: ease-in-out 0.3s;
 }
 
-.product__reviews__stars:hover {
-  filter: saturate(2);
+.product__reviews__stars+.product__reviews__stars {
+  margin-top: 16px;
 }
 
-.product__reviews {
-  row-gap: 20px;
+.product__reviews__stars:hover {
+  filter: saturate(3);
 }
+
 
 .star {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+  transition: ease-in-out 0.3s;
 }
+
+/* .star-hover:hover~.star img {
+  transform: rotate(360deg);
+  transition: 0.3s;
+} */
 
 .star img {
   width: 16.5px;
@@ -151,3 +157,49 @@ h1 {
 }
 
 /* -- */
+
+/* testimonials */
+
+.product__testimonial {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 30px;
+}
+
+.profile__photo img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.product__testimonial__user {
+  padding: 34px 32px;
+  border-radius: 10px;
+  background-color: var(--dark-violet);
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: row;
+  gap: 1.125rem;
+}
+
+.profile__name h3 {
+  color: var(--bg);
+}
+
+.profile__name h4 {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1;
+  color: var(--pink);
+}
+
+.product__testimonial__user p {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1.3;
+  letter-spacing: -0.2px;
+  padding-top: 1.625rem;
+  color: var(--bg);
+}
