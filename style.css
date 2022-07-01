@@ -91,7 +91,7 @@ h2 {
 /* .container */
 
 .container {
-  margin: 7.5rem 8.75rem;
+  max-width: 1110px;
 }
 
 /* rating section */
@@ -147,14 +147,12 @@ h2 {
 }
 
 .margin-top--24 {
-  margin-top: 1.2rem;
+  margin-top: 2.5rem;
 }
 
 .margin-top--48 {
-  margin-top: 2.4rem;
+  margin-top: 5rem;
 }
-
-
 
 /* testimonials */
 
