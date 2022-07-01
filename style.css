@@ -52,6 +52,11 @@ body {
   text-rendering: optimizeSpeed;
   font-family: 'Spartan';
   background-color: var(--bg);
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-position: left -185px top -236px, right 10px bottom -300px;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-size: contain, contain;
 }
 
 /* headings and general text*/
@@ -92,6 +97,7 @@ h2 {
 
 .container {
   max-width: 1110px;
+  margin: 3.375rem 1.5rem;
 }
 
 /* rating section */
@@ -262,5 +268,71 @@ h2 {
     width: 180px;
     gap: 12px;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-position: left -24px top -5px, right -15px bottom -220px;
+  }
+
+
+  .container {
+    margin-top: 5rem;
+  }
+
+  .heading p {
+    padding-top: 0;
+    margin: 12px;
+  }
+
+  .product__ad {
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .rating__review {
+    width: 100%;
+  }
+
+  .product__testimonial {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .margin-top--24,
+  .margin-top--48 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 64px;
+  }
+}
+
+@media (max-width: 300px) {
+  .rating__review {
+    padding: 20px 26px;
+    width: 100%;
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .product__testimonial__user {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .profile__info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
   }
 }
