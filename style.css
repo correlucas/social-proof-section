@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;800&display=swap");
 
 * {
   margin: 0;
@@ -62,9 +62,9 @@ body {
 /* headings and general text*/
 
 h1 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 48px;
-  letter-spacing: -1.71429px;
+  letter-spacing: -2.5px;
   line-height: 1.1;
   color: var(--dark-violet);
   max-width: 350px;
