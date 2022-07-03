@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;700;800&display=swap");
 
 * {
   margin: 0;
@@ -209,7 +209,7 @@ h2 {
 }
 
 .product__testimonial__user p {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 13px;
   line-height: 1.6;
   letter-spacing: -0.232143px;
