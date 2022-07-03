@@ -21,7 +21,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/article-preview-component-pure-css-no-js-custom-hover-states-ax1tv44e_s)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-proof-section-pure-css-grid-custom-hover-states-KwSrl-Rjws)
 - Live Site URL: [Live Site at Vercel](https://social-proof-section-six-alpha.vercel.app/)
 ## My process
 
